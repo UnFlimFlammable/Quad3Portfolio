@@ -1,0 +1,46 @@
+Listed below are the steps to get the portfolio site working:
+
+WEEK 1:
+
+    HTML / CSS Crash Course
+        Step 1. 
+            We're going to create the About page, and fill it out using Divs, H#, and p tags. <h> <p> <div>
+            
+        Step 2.
+            We're going to create a navigation menu to four other pages, "Contact", "Projects", "Resume", "Labs"
+            They'll be empty for now except for the navigation menu copied between each of the files. <a> <ul> <li>
+            
+        Step 3. 
+            Students are going to fill out the other pages (With the exception of 'Labs', they should have the ability to do this with little direction. 
+            No styling is going to be provided as of yet.
+            
+        Step 4.
+            Basic Styling of the pages. 
+            According to the syllabus, we'll cover positioning next week, so let's set basic styling such as fonts, background color, text sizing etc.
+            
+            Pick a custom font from google fonts. Set your text elements to that font. 
+            Pick a custom background color for your website, and color elements accordingly.
+            
+            Set the menu elements to change color on hover, add a border on hover.
+            
+            Place a table in Labs with two columns: 'Lab Title', 'Lab Description'. The Elements in the 'Lab Title' column should 
+            be wrapped in anchor tags and link to the lab html file.  //<table> <tr> <td>
+            
+            
+WEEK 2:
+    
+    CSS Positioning / CSS Shorthand Properties
+    
+        Step 5. 
+            Add position styling to your menus and page content, center it, and add a drop-shadow. Make the content background a different color than the page  
+            body background.
+            
+Week 3:
+    
+    Basic Javascript
+    
+        Expand your contact page to include a form. The form should have fields for a subject, body, and a submit button. Since we know basic javascript we can           use the onSubmit attribute of the submit button to call a js function which will create and submit a mailto: link containing the subject and body of the           email.  <form> <input> 
+        
+        A simple google search will provide the necessary stack overflow results with a copy - paste style result. 
+    
+        Be sure to validate the forms of your JS.

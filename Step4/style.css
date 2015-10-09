@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+body{
+  background-color: #3f3f3f;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: yellow;
+}
+
+ul{
+  list-style: none;
+}
+
+table, td, th{
+  border: 1px groove white;
+
+}

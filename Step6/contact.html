@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+        <script src='jquery-1.11.3.min.js'></script>
+        <script src='script.js'></script>
+
+    </head>
+
+    <body>
+        <h1 class = 'center' style='margin-left:5%;'> Dan Keller </h1>
+
+        <div>
+            <ul>
+                <li class = 'menuItem'><a href="about.html">About</a></li>
+                <li class = 'menuItem'><a href="contact.html">Contact</a></li>
+                <li class = 'menuItem'><a href="projects.html">Projects</a></li>
+                <li class = 'menuItem'><a href="resume.html">Resume</a></li>
+                <li class = 'menuItem'><a href="labs.html">Labs</a></li>
+            </ul>
+        </div>
+        <div class='dividerLine'></div>
+
+        <div class = 'center content'>
+            <h1> Dan Keller</h1>
+            <p><b>Phone:</b> 888-848-2232</p>
+            <p><b>Email:</b> realProgrammer@gmail.com</p>
+            <p><b>Github Account:</b> <a href="github.com/unflimflammable">Github/UnFlimFlammable</a></p>
+        </div>
+
+        <div class = 'center content'>
+          <form>
+            <h2> Contact Me </h2>
+            <br>
+
+            <h3> Subject </h3>
+            <textArea id='subject' type='text' cols="75" size="150"> </textArea>
+            <br>
+            <h3> Message Body </h3>
+            <textArea id='body' name = "MessageBody" cols="75" rows="15"></textArea>
+            <br><br>
+            <button onClick="validateInput()">Email Me!</button>
+
+          </form>
+        </div>
+    </body>
+</html>
